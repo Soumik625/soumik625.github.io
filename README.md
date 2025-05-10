@@ -7,9 +7,9 @@ Hi! I'm Soumik Mandal from IISER KOLKATA. I'm pursuing 5 years BS-MS now.
 <meta charset="UTF-8">
 <meta name="viewpoint" content= "width=device-width,initial scale=1">
 <style>
-body {
+ body {
       font-family:Arial, Helvetica,sans-serif;
-}
+ }
 </style>
 </head>
 <body>
