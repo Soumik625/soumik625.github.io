@@ -8,6 +8,6 @@ Hi! I'm Soumik Mandal from IISER KOLKATA. I'm pursuing 5 years BS-MS now.
 </head>
 <body>
  <h1>Welcome to Mandal's Website </h1>
- <p>A Website created by Soumik Mandal.</p>
+ <p> This Website created by Soumik Mandal.</p>
 </body>
 </html>
