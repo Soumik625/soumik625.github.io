@@ -1,6 +1,6 @@
 
 Hi! I'm Soumik Mandal from IISER KOLKATA. I'm pursuing 5 years BS-MS now.
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
  <title> My New Website </title>
