@@ -1,0 +1,45 @@
+
+body{
+    text-align:center;
+    color:white;
+    background-color: rgb(20, 11, 11);
+}
+div{
+  background-color: black;
+}
+    
+   
+
+
+pill-nav {
+  overflow: hidden; /* Ensures the container doesn't overflow */
+  background-color: #050101; /* Set a background color for the container */
+  border-radius: 25px; /* Optional: add rounded corners */
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  display:inline-block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: white;
+}
