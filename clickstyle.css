@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    text-decoration: underline
+}
+h2{
+    text-align: center;
+    text-decoration: underline
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.custom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.custom1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+}
+figcaption{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    text-align: center;
+}
+.custom2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
