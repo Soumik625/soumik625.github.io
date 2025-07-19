@@ -1,52 +1,173 @@
-
-body{
-    text-align:center;
-    color:white;
-    background-color: rgb(20, 11, 11);
-}
-div{
-  background-color: black;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-    
-   
-
-
-pill-nav {
-  overflow: hidden; /* Ensures the container doesn't overflow */
-  background-color: #050101; /* Set a background color for the container */
-  border-radius: 25px; /* Optional: add rounded corners */
-  padding: 10px;
-  text-align: center;
+body {
+    background-color: #121212;
+    /* Dark grey background */
+    color: #e0e0e0;
+    /* Light grey text */
+    font-family: "Courier New", Courier, monospace;
+    /* font-family: "Raleway", sans-serif;  */
+    margin: 0;
+    padding: 0;
 }
 
 
+header {
+    background-color: #1c1c1c;
+    /* Dark grey background */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    /* Light grey border */
+    font-size: 100 ;
+}
 
-/* Style the links inside the pill navigation menu */
-.pill-nav a {
-  display:inline-block;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px;
+header h1.professional-font {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    /* Bold weight */
+    font-size: 2.5em;
+    color: #ffffff;
+    /* White text */
+}
+
+header p {
+    font-size: 1.5em;
+    color: #e0e0e0;
+    /* Light grey text */
+    display: inline-block;
+    /* Allow the <p> to occupy only the width of its content */
+    white-space: nowrap;
+    /* Ensure text does not wrap */
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* About Me Section */
+#about {
+    margin-bottom: 40px;
+}
+
+#about h2,
+#about h3 {
+    margin-bottom: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.education {
+    margin-top: 20px;
+}
+
+.degree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.degree .education-logo {
+    width: 50px;
+    /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.degree .details p {
+    margin: 5px;
+    color: #e0e0e0;
+}
+
+.degree .details p:first-child {
+    font-weight: bold;
+}
+
+/* Navigation bar */
+.navbar-container {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.navbar li a {
   text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
+  font-style: italic;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
 }
 
-/* Change the color of links on mouse-over */
-.pill-nav a:hover {
-  background-color: #ddd;
-  color: black;
+.navbar li a:hover {
+  background-color: #444;
 }
 
-/* Add a color to the active/current link */
-.pill-nav a.active {
-  background-color: dodgerblue;
+.navbar li a.active {
+  background-color: #1e90ff;
   color: white;
 }
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+ 
+/* Footer */
+
+footer {
+    background-color: #1c1c1c; /* Dark grey background */
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0; /* Light grey border */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; Allow items to wrap into multiple rows */
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #e0e0e0; /* Light grey links */
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: grey; /* Grey on hover */
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    footer ul {
+        flex-direction: row; /* Keep the default row direction */
+        justify-content: center;
+    }
+
+    footer ul li {
+        width: 50%; /* Each item takes half the width */
+        text-align: center;
+        margin: 5px 0; /* Adjust margin for spacing */
+    }
+}
+
