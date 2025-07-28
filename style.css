@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #242323;
     /* Dark grey background */
     color: #e0e0e0;
     /* Light grey text */
@@ -38,6 +38,16 @@ header p {
     white-space: nowrap;
     /* Ensure text does not wrap */
 }
+
+.card{
+    background-color: #121212;
+    border-radius: 16 px;
+    padding: auto;
+    box-shadow: 0 8px 24px rgba(50,40,10,0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
 main {
     padding: 20px;
     display: flex;
